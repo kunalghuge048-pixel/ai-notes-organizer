@@ -1,0 +1,23 @@
+# Dependencies — don't upload these (too large)
+node_modules/
+*/node_modules/
+
+# API keys — NEVER upload this
+backend/.env
+
+# Build files
+frontend/build/
+
+# Saved notes data
+backend/data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
